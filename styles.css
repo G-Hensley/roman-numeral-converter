@@ -1,0 +1,98 @@
+body, html {
+    background-color: rgb(62, 60, 60);
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.page-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.conversion-section {
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+    width: 300px;
+}
+
+#enter-num {
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+#number {
+    background-color: rgb(62, 60, 60);
+    border: 2px solid black;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    padding: 8px;
+}
+
+.btn {
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 5px 10px 8px 10px;
+    transition: all 0.2s;
+    width: fit-content;
+}
+
+.btn:hover {
+    border: 3px solid white;
+    color: white;
+}
+
+.clicked-effect {
+    border: 3px solid white;
+    color: white;
+    transform: scale(0.95);
+}
+
+.btn:active {
+    scale: 0.95;
+}
+
+#output-section {
+    background-color: rgb(41, 39, 39);
+    border: 3px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem;
+    padding: 0 2.5rem;
+    text-align: center;
+    width: 300px;
+}
+
+#output {
+    background-color: rgb(41, 39, 39);
+    border: 3px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 50px;
+    margin: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: center;
+    width: 320px;
+}
