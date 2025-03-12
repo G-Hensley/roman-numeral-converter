@@ -37,6 +37,6 @@ To run this project locally:
    ```
 3. Open index.html in your preferred web browser.
 
-License:
+##License
 
 This project is licensed under the MIT License.
